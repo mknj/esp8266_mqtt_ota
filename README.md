@@ -15,12 +15,13 @@ everything is easily configurable at runtime via JSON.
 
 # example topic tree
 
-  - dev/GP40_bth         "on" or "error" this is the last will topic
-  - dev/GP40_bth/info    JSON with ip address and other information
-  - dev/GP40_bth/config  post json file with config entries here 
-  - dev/GP40_bth/stdin   send shell commands here (i.e. dir, config)
-  - dev/GP40_bth/stdout  receive shell output here
-
+```
+   dev/GP40_bth         "on" or "error" this is the last will topic
+   dev/GP40_bth/info    JSON with ip address and other information
+   dev/GP40_bth/config  post json file with config entries here 
+   dev/GP40_bth/stdin   send shell commands here (i.e. dir, config)
+   dev/GP40_bth/stdout  receive shell output here
+```
 examples:
 
 ```sh
